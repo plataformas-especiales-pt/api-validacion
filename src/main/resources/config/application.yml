@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-validacion
+
+app:
+  encryption:
+    secret: ${SECRET_KEY}
+  feign:
+    api-transaccion:
+      url: ${API_TRANSACCION_URL}
